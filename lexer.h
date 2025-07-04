@@ -9,7 +9,8 @@
 #define MAX_TOKEN_SIZE 100              // Maximum length of a token (identifier, keyword, etc.)
 
 // Enum to represent all possible types of tokens a lexer can return
-typedef enum {
+typedef enum 
+{
     PREPROCESSOR_DIRECTIVE,    // e.g., #include <stdio.h>
     KEYWORD,                   // e.g., int, float, if, else, etc.
     OPERATOR,                  // e.g., +, -, =, *, etc.
