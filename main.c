@@ -14,7 +14,8 @@
 #include <stdlib.h>
 #include "lexer.h"   // Custom lexer interface
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) 
+{
 
     Token token;  // Token structure to hold each extracted token
     Count new;
@@ -61,7 +62,7 @@ int main(int argc, char *argv[]) {
         if(ftell(fptr) >= file_length)
             break;
 
-        sleep(1);  // Optional delay for visual output pacing
+        //sleep(1);  // Optional delay for visual output pacing
     }
     printf("----------------------------------------------------------------------------------------------------------------------------------\n\n");
     
